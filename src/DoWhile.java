@@ -4,8 +4,7 @@ public class DoWhile {
         int n = Integer.valueOf(args[0]);
         do {
             System.out.println("Chislo ravno: " + n);
-            n--;
-        } while(n>0);
+            } while(n-->0);
 
     }
 }
